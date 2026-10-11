@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- Primary Page Title & Meta -->
+    <title>INFORMATIKA 26 — Angkatan 2026 | UNUGHA Cilacap</title>
+    <meta name="title" content="INFORMATIKA 26 — Angkatan 2026 | UNUGHA Cilacap" />
+    <meta
+      name="description"
+      content="Website resmi Informatika Angkatan 2026 (IF 26), Fakultas Matematika dan Ilmu Komputer, Universitas Nahdlatul Ulama Al Ghazali Cilacap. Code · Create · Collaborate."
+    />
+    <meta name="author" content="Informatika 2026 - Universitas Nahdlatul Ulama Al Ghazali Cilacap" />
+    <meta name="keywords" content="Informatika 2026, IF 26, Informatika UNUGHA, UNUGHA Cilacap, FMIKOM, Computer Science" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#070809" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="INFORMATIKA 26 — Angkatan 2026 | UNUGHA Cilacap" />
+    <meta
+      property="og:description"
+      content="Website resmi Informatika Angkatan 2026 (IF 26), Fakultas Matematika dan Ilmu Komputer, Universitas Nahdlatul Ulama Al Ghazali Cilacap. Code · Create · Collaborate."
+    />
+    <meta property="og:site_name" content="INFORMATIKA 26 UNUGHA" />
+    <meta property="og:image" content="./assets/gallery/FOTBAR.jpg" />
+    <meta property="og:locale" content="id_ID" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="INFORMATIKA 26 — Angkatan 2026 | UNUGHA Cilacap" />
+    <meta
+      name="twitter:description"
+      content="Website resmi kelas Informatika Angkatan 2026 (IF 26), Fakultas Matematika dan Ilmu Komputer, Universitas Nahdlatul Ulama Al Ghazali Cilacap."
+    />
+    <meta name="twitter:image" content="./assets/gallery/gallery-01.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logokelas.png" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+
+    <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "INFORMATIKA 26 (IF 26) — UNUGHA Cilacap",
+        "alternateName": "Informatika Angkatan 2026 UNUGHA Cilacap",
+        "description": "Website resmi kelas Informatika Angkatan 2026, Fakultas Matematika dan Ilmu Komputer, Universitas Nahdlatul Ulama Al Ghazali Cilacap.",
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universitas Nahdlatul Ulama Al Ghazali Cilacap",
+          "alternateName": "UNUGHA",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Kemerdekaan Barat No. 17, Kesugihan",
+            "addressLocality": "Cilacap",
+            "addressRegion": "Jawa Tengah",
+            "addressCountry": "ID"
+          }
+        },
+        "department": {
+          "@type": "Organization",
+          "name": "Fakultas Matematika dan Ilmu Komputer - Program Studi Informatika"
+        },
+        "slogan": "CODE • CREATE • COLLABORATE"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Top Navigation Bar (3-Zone Top Bar Contract) -->
+    <header id="site-header" class="site-header">
+      <div class="header-inner">
+        <!-- Zone 1: Single text element wordmark -->
+        <a href="#hero" class="brand-wordmark" aria-label="INF.SIDEDISPLAY026 Home">
+          <span class="brand-monogram">
+            <img src="./assets/logokelas.png"alt="logo informatika 26"width="40" height="40">
+            </img>
+          </span>
+          <span class="brand-text">IF 26</span>
+        </a>
+
+        <!-- Zone 2: Clean text navigation links -->
+        <nav class="desktop-nav" aria-label="Primary Navigation">
+          <a href="#hero" class="nav-link active">HOME</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#people" class="nav-link">PEOPLE</a>
+          <a href="#schedule" class="nav-link">SCHEDULE</a>
+          <a href="#projects" class="nav-link">PROJECTS</a>
+          <a href="#moments" class="nav-link">MOMENTS</a>
+        </nav>
+
+        <!-- Zone 3: Primary Action & Mobile Toggle -->
+        <div class="header-actions">
+          <a href="#structure" class="btn-header-action">
+            <span>STRUCTURE</span>
+          </a>
+          <button
+            id="menu-toggle"
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-nav" class="mobile-drawer" aria-hidden="true">
+      <div class="drawer-backdrop" id="drawer-backdrop"></div>
+      <div class="drawer-content">
+        <div class="drawer-header">
+          <div class="drawer-brand">
+            <span class="text-mono text-cyan">INFORMATIKA // 2026</span>
+          </div>
+          <button id="drawer-close" class="drawer-close-btn" aria-label="Close menu">✕</button>
+        </div>
+        <nav class="drawer-links" aria-label="Mobile Navigation">
+          <a href="#hero" class="drawer-link">01. HOME</a>
+          <a href="#about" class="drawer-link">02. ABOUT</a>
+          <a href="#profile" class="drawer-link">03. CLASS PROFILE</a>
+          <a href="#structure" class="drawer-link">04. CLASS STRUCTURE</a>
+          <a href="#craft" class="drawer-link">05. WHAT WE LEARN</a>
+          <a href="#schedule" class="drawer-link">06. SCHEDULE</a>
+          <a href="#people" class="drawer-link">07. THE PEOPLE</a>
+          <a href="#projects" class="drawer-link">08. PROJECTS</a>
+          <a href="#moments" class="drawer-link">09. MOMENTS</a>
+          <a href="#digital-wall" class="drawer-link">10. DIGITAL WALL</a>
+        </nav>
+        <div class="drawer-footer">
+          <p class="drawer-caption">Fakultas Matematika dan Ilmu Komputer</p>
+          <p class="drawer-subcaption">Universitas Nahdlatul Ulama Al Ghazali Cilacap</p>
+          <div class="drawer-tagline">CODE • CREATE • COLLABORATE</div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main-content">
+      <!-- 01. HERO SECTION (Full-Bleed Class Photo Editorial Campaign) -->
+      <section id="hero" class="hero-section">
+        <!-- Full-Bleed Media Layer -->
+        <div class="hero-media-wrap">
+          <img
+            src="./assets/gallery/FOTBAR.jpg"
+            alt="Foto Resmi Kelas Informatika 2026 UNUGHA Cilacap"
+            class="hero-image"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <!-- Measured Editorial Scrim (Preserves face detail in center, enhances contrast top & bottom) -->
+          <div class="hero-scrim" aria-hidden="true"></div>
+        </div>
+
+        <div class="container hero-container">
+          <!-- Top Label / Meta -->
+          <div class="hero-meta-bar">
+            <span class="hero-label font-mono">INFORMATICS • 2026</span>
+            <span class="hero-meta-divider" aria-hidden="true">/</span>
+            <span class="hero-sublabel font-mono">IF 26</span>
+            <span class="hero-meta-divider" aria-hidden="true">/</span>
+            <span class="hero-coords font-mono">UNUGHA CILACAP</span>
+          </div>
+
+          <!-- Editorial Campaign Headline & Campus Identity -->
+          <div class="hero-content-block">
+            <h1 class="hero-title">
+              WELCOME TO <br />
+              INF.SIDEDISPLAY<br />
+              026
+            </h1>
+
+            <!-- Campus Institutional Identity -->
+            <div class="hero-institution-block">
+              <p class="hero-faculty">Fakultas Matematika dan Ilmu Komputer</p>
+              <p class="hero-university">Universitas Nahdlatul Ulama Al Ghazali Cilacap</p>
+            </div>
+
+            <!-- Minimal Button Actions -->
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-hero-primary">
+                <span>EXPLORE CLASS</span>
+                <span class="btn-arrow" aria-hidden="true">↓</span>
+              </a>
+              <a href="#people" class="btn btn-hero-secondary">
+                <span>MEET INFORMATIKA </span>
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Bottom Bar & Scroll Indicator -->
+          <div class="hero-bottom-bar">
+            <a href="#about" class="hero-scroll-indicator" aria-label="Scroll down to explore class details">
+              <span class="scroll-text font-mono">SCROLL TO EXPLORE</span>
+              <span class="scroll-arrow font-mono" aria-hidden="true">↓</span>
+            </a>
+            <div class="hero-bottom-meta font-mono text-muted">
+              <span>LAT 7°43'S · LON 109°01'E</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section Bottom Divider Ribbon -->
+        <div class="section-ticker" aria-hidden="true">
+          <div class="ticker-track">
+            <span>INFORMATIKA UNUGHA 2026</span>
+            <span>·</span>
+            <span>CODE</span>
+            <span>·</span>
+            <span>CREATE</span>
+            <span>·</span>
+            <span>COLLABORATE</span>
+            <span>·</span>
+            <span>FAKULTAS MATEMATIKA DAN ILMU KOMPUTER</span>
+            <span>·</span>
+            <span>IF 26</span>
+            <span>·</span>
+            <span>INFORMATIKA 2026</span>
+            <span>·</span>
+            <span>CODE</span>
+            <span>·</span>
+            <span>CREATE</span>
+            <span>·</span>
+            <span>COLLABORATE</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02. ABOUT SECTION -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">01</span>
+            <span class="kicker-text">ABOUT THE COHORT</span>
+          </div>
+
+          <div class="about-editorial-layout">
+            <div class="about-lead">
+              <h2 class="about-title">WE ARE INFORMATIKA 26.</h2>
+              <p class="about-text">
+                Kami adalah mahasiswa Program Studi Informatika Angkatan 2026 dari Fakultas Matematika dan Ilmu Komputer, Universitas Nahdlatul Ulama Al Ghazali Cilacap. Bersama kami belajar, jadilah pencipta bukan haanya pengguna.
+              </p>
+            </div>
+
+            <div class="about-numeral-lockup">
+              <div class="giant-numeral" aria-label="Angkatan 2026">2026</div>
+              <div class="about-credo-list">
+                <div class="credo-item">
+                  <span class="credo-idx">A</span>
+                  <span class="credo-title">ONE GENERATION</span>
+                </div>
+                <div class="credo-separator">/</div>
+                <div class="credo-item">
+                  <span class="credo-idx">B</span>
+                  <span class="credo-title">ONE CLASS</span>
+                </div>
+                <div class="credo-separator">/</div>
+                <div class="credo-item">
+                  <span class="credo-idx">C</span>
+                  <span class="credo-title">COUNTLESS POSSIBILITIES</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. CLASS PROFILE SECTION -->
+      <section id="profile" class="profile-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">02</span>
+            <span class="kicker-text">ACADEMIC IDENTITY</span>
+          </div>
+
+          <div class="profile-header-row">
+            <h2 class="section-heading">CLASS PROFILE</h2>
+            <p class="section-lead-muted">
+              Identitas resmi institusional dan program akademik Informatika 26 (IF 26) pada lingkungan Universitas Nahdlatul Ulama Al Ghazali Cilacap.
+            </p>
+          </div>
+
+          <!-- Asymmetric Editorial Grid (Not boxed card clones) -->
+          <div class="editorial-profile-grid">
+            <div class="profile-row">
+              <div class="profile-key font-mono">UNIVERSITY</div>
+              <div class="profile-val">Universitas Nahdlatul Ulama Al Ghazali Cilacap</div>
+              <div class="profile-aside text-muted">UNUGHA Cilacap</div>
+            </div>
+
+            <div class="profile-row">
+              <div class="profile-key font-mono">FACULTY</div>
+              <div class="profile-val">Fakultas Matematika dan Ilmu Komputer</div>
+              <div class="profile-aside text-muted">FMIKOM</div>
+            </div>
+
+            <div class="profile-row">
+              <div class="profile-key font-mono">PROGRAM</div>
+              <div class="profile-val">Informatika</div>
+              <div class="profile-aside text-muted">Computer Science / S1</div>
+            </div>
+
+            <div class="profile-row">
+              <div class="profile-key font-mono">COHORT</div>
+              <div class="profile-val tabular-nums">2026</div>
+              <div class="profile-aside text-muted">Freshmen / First Year</div>
+            </div>
+
+            <div class="profile-row highlight-row">
+              <div class="profile-key font-mono text-cyan">IDENTITY</div>
+              <div class="profile-val font-display text-white">INFORMATIKA 26 </div>
+              <div class="profile-aside text-cyan font-mono">CODE · CREATE · COLLABORATE</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04. CLASS STRUCTURE SECTION -->
+      <section id="structure" class="structure-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">03</span>
+            <span class="kicker-text">LEADERSHIP & GOVERNANCE</span>
+          </div>
+
+          <div class="structure-header-row">
+            <h2 class="section-heading">PEOPLE BEHIND THE CLASS</h2>
+            <p class="section-lead-muted">
+              Struktur kepengurusan dan pendampingan akademik yang menjaga sinergi, komunikasi, dan kelancaran kegiatan belajar mengajar Informatika 26.
+            </p>
+          </div>
+
+          <!-- Hierarchy Tree with Subtle Connector Lines -->
+          <div class="hierarchy-tree">
+            <!-- Node Level 1: DPA -->
+            <div class="tree-level level-dpa">
+              <div class="tree-card dpa-card">
+                <div class="tree-role font-mono">DOSEN PEMBIMBING AKADEMIK (DPA)</div>
+                <div class="tree-name">Bapak Trio Anggoro M.Kom </div>
+                <div class="tree-desc">Pembimbing Akademik Kelas Informatika 2026</div>
+              </div>
+            </div>
+
+            <!-- Connector Line Down -->
+            <div class="tree-connector-v" aria-hidden="true">
+              <div class="connector-stem"></div>
+              <div class="connector-arrow">↓</div>
+            </div>
+
+            <!-- Node Level 2: Korlas -->
+            <div class="tree-level level-korlas">
+              <div class="tree-card korlas-card">
+                <div class="tree-role font-mono text-cyan">KOORDINATOR KELAS (KORLAS)</div>
+                <div class="tree-name">Muhammad Adam Khakiki</div>
+                <div class="tree-desc">Koordinator Kelas Informatika 2026</div>
+              </div>
+            </div>
+
+            <!-- Connector Fork Down -->
+            <div class="tree-connector-fork" aria-hidden="true">
+              <div class="connector-stem-mid"></div>
+              <div class="connector-bar"></div>
+              <div class="connector-drops">
+                <span class="drop">↓</span>
+                <span class="drop">↓</span>
+                <span class="drop">↓</span>
+              </div>
+            </div>
+
+            <!-- Node Level 3: Department Officers -->
+            <div class="tree-level level-officers">
+              <!-- Secretary -->
+              <div class="tree-card officer-card">
+                <div class="tree-role font-mono">SEKRETARIS</div>
+                <div class="tree-name">Sulaiman Jatmiko</div>
+                <div class="tree-desc">Administrasi, & Arsip Kelas</div>
+              </div>
+
+              <!-- Treasurer (Dual) -->
+              <div class="tree-card officer-card">
+                <div class="tree-role font-mono">BENDAHARA</div>
+                <div class="tree-name">Iana Zahwa</div>
+                <div class="tree-name-sub">Nabila Fitrotul Mauliya</div>
+                <div class="tree-desc">Pengelolaan Kas & Anggaran Operasional Kelas</div>
+              </div>
+
+              <!-- Public Relations -->
+              <div class="tree-card officer-card">
+                <div class="tree-role font-mono">HUMAS (PUBLIC RELATIONS)</div>
+                <div class="tree-name">Fiki Tino Satrio</div>
+                <div class="tree-desc">Relasi Eksternal, Pengumuman & Sosial Kelas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05. WHAT WE LEARN (THE CRAFT) -->
+      <section id="craft" class="craft-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">04</span>
+            <span class="kicker-text">CURRICULUM & CAPABILITIES</span>
+          </div>
+
+          <div class="craft-header-row">
+            <h2 class="section-heading">WHAT WE LEARN</h2>
+            <p class="section-lead-muted">
+              Pilar kompetensi keilmuan komputer yang dipelajari dan diasah oleh mahasiswa Informatika UNUGHA Angkatan 2026.
+            </p>
+          </div>
+
+          <!-- Editorial Craft List with Hover Feedback -->
+          <div class="craft-list" id="craft-list">
+            <!-- Rendered cleanly with semantic list & interactive JS -->
+            <div class="craft-item" data-index="01">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">01</span>
+                <h3 class="craft-name">PROGRAMMING</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Menguasai paradigma pemrograman modern, fondasi logika sintaks, modularitas, dan pemecahan masalah komputasi secara clean dan sistematis.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="02">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">02</span>
+                <h3 class="craft-name">ALGORITHMS</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Mempelajari struktur data fundamental, efisiensi kompleksitas waktu (Big-O), searching, sorting, graph, dan pemodelan matematis diskrit.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="03">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">03</span>
+                <h3 class="craft-name">WEB DEVELOPMENT</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Membangun platform aplikasi web responsif, arsitektur client-server modern, standar aksesibilitas WCAG, performa tinggi, dan API terintegrasi.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="04">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">04</span>
+                <h3 class="craft-name">DATABASE</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Normalisasi data, perancangan skema relasional SQL, integritas referensial, query optimization, serta manajemen basis data terdistribusi.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="05">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">05</span>
+                <h3 class="craft-name">UI / UX</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Menghadirkan pengalaman pengguna yang manusiawi, tipografi presisi, layout editorial, hirarki visual yang matang, dan prinsip ergonomi antarmuka.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="06">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">06</span>
+                <h3 class="craft-name">ARTIFICIAL INTELLIGENCE</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Fondasi penalaran cerdas, representasi pengetahuan, pembelajaran mesin (machine learning), pemrosesan data, dan etika implementasi teknologi cerdas.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="07">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">07</span>
+                <h3 class="craft-name">COMPUTER SYSTEM</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Arsitektur komputer, hierarki memori, representasi biner, instruksi CPU, interaksi sistem operasi, dan pemahaman level hardware ke software.</p>
+              </div>
+            </div>
+
+            <div class="craft-item" data-index="08">
+              <div class="craft-item-header">
+                <span class="craft-index font-mono">08</span>
+                <h3 class="craft-name">DIGITAL TECHNOLOGY</h3>
+                <span class="craft-toggle" aria-hidden="true">+</span>
+              </div>
+              <div class="craft-item-body">
+                <p>Ekosistem komputasi awan, kolaborasi open source , keamanan siber , dan pemanfaatan teknologi digital untuk masyarakat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06. SCHEDULE SECTION (OUR WEEK) -->
+      <section id="schedule" class="schedule-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">05</span>
+            <span class="kicker-text">LECTURE TIMETABLE</span>
+          </div>
+
+          <div class="schedule-header-row">
+            <div>
+              <h2 class="section-heading">OUR WEEK</h2>
+              <p class="section-lead-muted">
+                Jadwal perkuliahan resmi. Hanya menampilkan hari yang memiliki agenda kuliah perkuliahan (Senin, Selasa, Kamis).
+              </p>
+            </div>
+
+            <!-- Filter Controls (Active button segmented state) -->
+            <div class="schedule-controls" role="group" aria-label="Schedule Filter">
+              <button class="filter-tab active" data-filter="all" type="button">ALL DAYS</button>
+              <button class="filter-tab" data-filter="senin" type="button">SENIN</button>
+              <button class="filter-tab" data-filter="selasa" type="button">SELASA</button>
+              <button class="filter-tab" data-filter="kamis" type="button">KAMIS</button>
+            </div>
+          </div>
+
+          <!-- Editorial Schedule Container (Rendered dynamically from SCHEDULE_DATA) -->
+          <div class="schedule-editorial-grid" id="schedule-container">
+            <!-- Dynamic Injection via script.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 07. MEMBERS SECTION (THE PEOPLE) -->
+      <section id="people" class="people-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">06</span>
+            <span class="kicker-text">DIRECTORY</span>
+          </div>
+
+          <div class="people-header-row">
+            <div>
+              <h2 class="section-heading">THE PEOPLE</h2>
+              <p class="section-lead-muted">
+                Direktori profil mahasiswa Informatika Angkatan 2026. Klik kartu anggota untuk melihat profil lengkap.
+              </p>
+            </div>
+
+            <!-- Search Bar Input -->
+            <div class="member-search-box">
+              <label for="member-search" class="sr-only">Cari anggota kelas</label>
+              <div class="search-input-wrapper">
+                <span class="search-icon font-mono" aria-hidden="true">⌕</span>
+                <input
+                  type="search"
+                  id="member-search"
+                  class="search-input font-mono"
+                  placeholder="Cari nama, NIM, atau role..."
+                  autocomplete="off"
+                />
+                <span id="search-count" class="search-count font-mono tabular-nums">26 / 26</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member Grid (Dynamic 20 Members with lazy loading) -->
+          <div class="members-grid" id="members-grid">
+            <!-- Dynamic Injection via script.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Member Profile Modal Dialog -->
+      <dialog id="member-modal" class="member-dialog">
+        <div class="dialog-card">
+          <button id="modal-close-btn" class="dialog-close-btn" aria-label="Tutup dialog">✕</button>
+          <div class="dialog-body" id="modal-content">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </dialog>
+
+      <!-- 08. PROJECTS SECTION (THINGS WE BUILD) -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">07</span>
+            <span class="kicker-text">PORTFOLIO & WORK</span>
+          </div>
+
+          <div class="projects-header-row">
+            <div>
+              <h2 class="section-heading">THINGS WE BUILD</h2>
+              <p class="section-lead-muted">
+                Karya, proyek komputasi, dan eksplorasi perangkat lunak yang sedang dikembangkan oleh inf.sidepay026.
+              </p>
+            </div>
+          </div>
+
+          <div class="projects-editorial-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-index font-mono">PROJECT 01</span>
+                <span class="project-label-text font-mono text-cyan">PROJECT PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">CLASS PROJECT</h3>
+              <p class="project-desc">
+                Inisiatif kolaboratif internal angkatan untuk merancang sistem informasi terintegrasi dan platform arsip kegiatan akademik kelas.
+              </p>
+              <div class="project-meta text-muted">
+                <span>Informatics 2026</span>
+                <span aria-hidden="true">·</span>
+                <span>Active Research</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-index font-mono">PROJECT 02</span>
+                <span class="project-label-text font-mono text-cyan">PROJECT PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">DIGITAL PROJECT</h3>
+              <p class="project-desc">
+                Eksplorasi algoritma cerdas, pemecahan masalah komputasional praktis, dan otomatisasi tugas mahasiswa menggunakan perkakas modern.
+              </p>
+              <div class="project-meta text-muted">
+                <span>Computational Lab</span>
+                <span aria-hidden="true">·</span>
+                <span>In Development</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-index font-mono">PROJECT 03</span>
+                <span class="project-label-text font-mono text-cyan">PROJECT PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">WEB PROJECT</h3>
+              <p class="project-desc">
+                Portal web resmi kelas dan sistem direktori interaktif berbasis performa tinggi, aksesibilitas semantik, dan arsitektur tanpa dependensi berat.
+              </p>
+              <div class="project-meta text-muted">
+                <span>Frontend & Systems</span>
+                <span aria-hidden="true">·</span>
+                <span>Version 1.0</span>
+              </div>
+            </article>
+
+            <article class="project-card coming-soon-card">
+              <div class="project-header">
+                <span class="project-index font-mono">PROJECT 04</span>
+                <span class="project-label-text font-mono text-muted">PROJECT PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">COMING SOON</h3>
+              <p class="project-desc">
+                Ruang inovasi terbuka untuk proyek akhir semester, kompetisi hackathon, dan kontribusi open source mendatang dari anggota kelas.
+              </p>
+              <div class="project-meta text-muted">
+                <span>Future Milestone</span>
+                <span aria-hidden="true">·</span>
+                <span>Semester Progression</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 09. MOMENTS SECTION (MASONRY GALLERY) -->
+      <section id="moments" class="moments-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">08</span>
+            <span class="kicker-text">ARCHIVE & MEMORIES</span>
+          </div>
+
+          <div class="moments-header-row">
+            <div>
+              <h2 class="section-heading">MOMENTS</h2>
+              <p class="section-lead-muted">
+                Dokumentasi visual perjalanan akademik, diskusi laboratorium, dan kebersamaan angkatan Informatika 2026.
+              </p>
+            </div>
+            <div class="moments-hint font-mono text-muted">
+              KLIK FOTO UNTUK LIGHTBOX FULLSCREEN
+            </div>
+          </div>
+
+          <div class="moments-grid" id="moments-gallery">
+            <!-- Dynamic Gallery Items via script.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Lightbox Fullscreen Viewer -->
+      <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog" aria-label="Fullscreen Photo Lightbox">
+        <div class="lightbox-overlay" id="lightbox-backdrop"></div>
+        <div class="lightbox-container">
+          <button id="lightbox-close" class="lightbox-close-btn" aria-label="Tutup lightbox">✕</button>
+          
+          <button id="lightbox-prev" class="lightbox-nav-btn prev-btn" aria-label="Foto sebelumnya">‹</button>
+          
+          <figure class="lightbox-figure">
+            <img id="lightbox-img" src="" alt="Fullscreen Moment" />
+            <figcaption id="lightbox-caption" class="lightbox-caption font-mono"></figcaption>
+          </figure>
+          
+          <button id="lightbox-next" class="lightbox-nav-btn next-btn" aria-label="Foto berikutnya">›</button>
+        </div>
+      </div>
+
+      <!-- 10. DIGITAL WALL SECTION (TERMINAL HUD) -->
+      <section id="digital-wall" class="digital-wall-section">
+        <div class="container">
+          <div class="section-kicker">
+            <span class="kicker-index">09</span>
+            <span class="kicker-text">LIVE TELEMETRY HUD</span>
+          </div>
+
+          <div class="digital-wall-layout">
+            <div class="wall-header">
+              <h2 class="section-heading">DIGITAL WALL</h2>
+              <p class="section-lead-muted">
+                Status konsol operasional lingkungan belajar angkatan Informatika 26 (IF 26) UNUGHA Cilacap.
+              </p>
+            </div>
+
+            <div class="terminal-wall-console">
+              <div class="console-bar">
+                <span class="bar-title font-mono">TERMINAL // IF-26.NODE.ROOT</span>
+                <span class="bar-clock font-mono tabular-nums" id="live-clock">00:00:00 WIB</span>
+              </div>
+              <div class="console-content font-mono">
+                <div class="console-entry">
+                  <span class="entry-key">COHORT:</span>
+                  <span class="entry-val text-white">2026</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">CLASS:</span>
+                  <span class="entry-val text-white">INFORMATIKA 26 (IF 26)</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">UNIVERSITY:</span>
+                  <span class="entry-val text-white">UNUGHA CILACAP</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">FACULTY:</span>
+                  <span class="entry-val text-white">MATEMATIKA & ILMU KOMPUTER</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">STATUS:</span>
+                  <span class="entry-val text-cyan">LEARNING</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">SYSTEM:</span>
+                  <span class="entry-val text-cyan"><span class="pulse-indicator"></span>ONLINE</span>
+                </div>
+                <div class="console-divider"></div>
+                <div class="console-entry">
+                  <span class="entry-key">ACTIVE NODES:</span>
+                  <span class="entry-val text-muted tabular-nums">26 REGISTERED STUDENTS</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">UPTIME:</span>
+                  <span class="entry-val text-muted font-mono" id="simulated-uptime">SEMESTER 1 // ACADEMIC YEAR 2026</span>
+                </div>
+                <div class="console-entry">
+                  <span class="entry-key">COORDINATES:</span>
+                  <span class="entry-val text-muted font-mono">7°43'12.4"S 109°01'44.2"E (CILACAP, JAWA TENGAH)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11. MANIFESTO QUOTE SECTION -->
+      <section class="quote-section">
+        <div class="container quote-container">
+          <blockquote class="manifesto-quote">
+            <p class="quote-text">
+              “WE DON’T JUST LEARN TECHNOLOGY.<br />
+              WE LEARN HOW TO CREATE WITH IT.”
+            </p>
+            <footer class="quote-author font-mono">
+              — INFORMATIKA · UNUGHA CILACAP
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <!-- 12. FOOTER SECTION -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+          <div class="footer-brand-col">
+            <div class="footer-logo font-display">INFORMATIKA 026</div>
+            <div class="footer-tagline-text font-mono text-cyan">IF 26 · CODE · CREATE · COLLABORATE</div>
+            <p class="footer-desc">
+              Ruang belajar, berkarya, dan berkolaborasi mahasiswa Program Studi Informatika Angkatan 2026.
+            </p>
+          </div>
+
+          <div class="footer-info-col">
+            <div class="footer-label font-mono">PROGRAM STUDI</div>
+            <p class="footer-val">Informatika — 2026</p>
+
+            <div class="footer-label font-mono">FAKULTAS</div>
+            <p class="footer-val">Fakultas Matematika dan Ilmu Komputer</p>
+
+            <div class="footer-label font-mono">UNIVERSITAS</div>
+            <p class="footer-val">Universitas Nahdlatul Ulama Al Ghazali Cilacap</p>
+          </div>
+
+          <div class="footer-nav-col">
+            <div class="footer-label font-mono">NAVIGASI</div>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#structure">Class Structure</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#people">Members</a></li>
+              <li><a href="#moments">Moments</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social-col">
+            <div class="footer-label font-mono">CONNECT</div>
+            <ul class="footer-links font-mono">
+              <li><a href="https://github.com/informatika26-unugha" target="_blank" rel="noopener noreferrer">github.com/informatika26-unugha</a></li>
+              <li><a href="https://instagram.com/if26.unugha" target="_blank" rel="noopener noreferrer">instagram.com/if26.unugha</a></li>
+              <li><a href="mailto:informatika26@unugha.ac.id">informatika26@unugha.ac.id</a></li>
+            </ul>
+            <div class="footer-btn-wrap">
+              <a href="#hero" class="btn-back-top font-mono">
+                <span>TOP</span>
+                <span aria-hidden="true">↑</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+          <div class="footer-copy text-muted">
+            © 2026 INFORMATIKA 26 (IF 26) · Program Studi Informatika, Universitas Nahdlatul Ulama Al Ghazali Cilacap. All rights reserved.
+          </div>
+          <div class="footer-status font-mono text-muted">
+            HOSTED VIA GITHUB PAGES · ZERO DEPENDENCIES
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript Core -->
+    <script src="./script.js"></script>
+  </body>
+</html>
