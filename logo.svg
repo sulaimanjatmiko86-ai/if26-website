@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 36" fill="none">
-  <!-- Minimalist Monogram & Wordmark -->
-  <rect x="0" y="2" width="32" height="32" rx="6" fill="#16181B" stroke="rgba(255,255,255,0.14)" stroke-width="1.2"/>
-  <path d="M11 10H21V13H17V26H13V13H11V10ZM23 10H30V13H26V16.5H29.5V19.5H26V26H23V10Z" fill="#F5F5F5" transform="scale(0.85) translate(-2, 2)"/>
-  <circle cx="26" cy="9" r="2.5" fill="#00D2FF"/>
-  <!-- Typography Wordmark -->
-  <text x="40" y="21" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-size="14.5" font-weight="700" letter-spacing="0.08em" fill="#F5F5F5">IF 26</text>
-  <text x="40" y="30.5" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="500" letter-spacing="0.16em" fill="#92969D">INFORMATIKA</text>
-</svg>
