@@ -152,7 +152,7 @@ const MEMBERS_DATA = [
     name: "Muhammad Syadid Fahmi",
     nim: "265211004",
     role: "Informatics Student",
-    image: "./assets/members/om.jpeg",
+    image: "./assets/members/mamas.jpeg",
     github: "https://github.com",
     instagram: "https://www.instagram.com/fhm_sdt?rpxt=MmpqYWh4Z3Y1b2h5",
     bio: "Bahagia itu sederhana, cukup bersyukur."
